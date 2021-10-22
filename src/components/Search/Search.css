@@ -1,0 +1,67 @@
+body {
+  background-color: #bdb2ff;
+}
+.repoList {
+  display: flex;
+  padding-top: 40px;
+  flex-direction: column;
+  justify-content: center;
+}
+.repoCard {
+  background-color: #ffd6a5;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border-radius: 8px;
+  display: flex;
+  margin: 20px;
+  padding: 20px;
+  width: 100%;
+  /* justify-content: center; */
+  text-decoration: none;
+}
+
+.repoRow {
+  display: flex;
+  justify-content: center;
+}
+
+.repoCard p {
+  text-decoration: none;
+}
+
+.repo {
+  width: 100%;
+}
+
+.link {
+  text-decoration: none;
+  width: 100%;
+  color: black;
+}
+
+.link:hover {
+  opacity: 0.5;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  width: 20em;
+}
+
+.errorMessage {
+  text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+  form {
+    flex-direction: column;
+    width: 80%;
+  }
+  .repo {
+    width: 100%;
+  }
+  .repoCard {
+    width: 70%;
+  }
+}
